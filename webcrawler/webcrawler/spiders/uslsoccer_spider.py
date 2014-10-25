@@ -7,7 +7,7 @@ import urlparse
 import string
 
 class UslsoccerSpider(scrapy.Spider):
-    name = "uslsoccer_spider"
+    name = "uslsoccer"
     allowed_domain = ["uslpro.uslsoccer.com"]
     start_urls = ["http://uslpro.uslsoccer.com/teams/2014/22310.html#ROSTER"]
 
