@@ -19,4 +19,8 @@ class NaslSpider(scrapy.Spider):
                 item[attrlist[i]] = td.extract()
                 i = i + 1
 
+            print(item)
+
             yield item
+
+

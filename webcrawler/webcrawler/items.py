@@ -33,3 +33,13 @@ class NASLPlayer(scrapy.Item):
     Ast = scrapy.Field()
     Yel = scrapy.Field()
     Red = scrapy.Field()
+
+class SBNationPlayer(scrapy.Item):
+    Name = scrapy.Field()
+    Pos = scrapy.Field()
+    Team  = scrapy.Field()
+    Born = scrapy.Field()
+    Age = scrapy.Field()
+    Height = scrapy.Field()
+    Weight = scrapy.Field()
+    Seasons = scrapy.Field()
